@@ -1,5 +1,5 @@
-# Usar una imagen base de Python 3.12 ligera
-FROM python:3.12-slim
+# Usar una imagen base de Python 3.12 ligera desde ECR Public para evitar límites de Docker Hub
+FROM public.ecr.aws/docker/library/python:3.12-slim
 
 # Evitar la generación de archivos .pyc y asegurar que los logs se muestren en tiempo real
 ENV PYTHONDONTWRITEBYTECODE=1

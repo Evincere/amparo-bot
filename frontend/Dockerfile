@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM public.ecr.aws/docker/library/nginx:alpine
 
 # Remove default nginx website
 RUN rm -rf /usr/share/nginx/html/*
