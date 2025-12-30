@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   backend:
     build: ./backend
@@ -33,7 +31,7 @@ services:
       - amparo_network
 
   redis:
-    image: redis:7-alpine
+    image: public.ecr.aws/docker/library/redis:7-alpine
     container_name: amparo_redis
     restart: always
     volumes:
