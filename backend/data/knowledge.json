@@ -1,0 +1,664 @@
+{
+    "metadata": {
+        "fuente": "Ministerio Público de la Defensa y Pupilar de Mendoza",
+        "dominio": "https://defensamendoza.gob.ar/",
+        "fecha_extraccion": "2025-12-29",
+        "version": "1.1",
+        "total_documentos": 35,
+        "cobertura": [
+            "home",
+            "dependencias",
+            "transparencia",
+            "informacion",
+            "noticias",
+            "servicios_especificos",
+            "secciones_vacias"
+        ],
+        "nota_tecnica": "Secciones /jurisprudencia/, /capacitaciones-mpdyp/, etc. usan JS dinámico - contenido no scrapeable con get_full_page_content"
+    },
+    "documents": [
+        {
+            "id": "mpdyp-objetivos-generales",
+            "seccion": "institucional",
+            "titulo": "Objetivos del Ministerio Público de la Defensa y Pupilar",
+            "tipo": "descripcion_general",
+            "slug_web": "https://defensamendoza.gob.ar/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Garantizar el acceso a la defensa a personas en condición de vulnerabilidad. Contar con atención en todo el territorio provincial de Mendoza en todos los fueros. Acercar el servicio de defensa a la ciudadanía mediante números telefónicos disponibles para atención.",
+            "tags": [
+                "objetivos",
+                "vulnerabilidad",
+                "acceso-justicia",
+                "Mendoza",
+                "defensa-publica"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-civil-descripcion",
+            "seccion": "servicios",
+            "titulo": "Defensa Civil - Áreas de Competencia",
+            "tipo": "area_servicio",
+            "slug_web": "https://defensamendoza.gob.ar/civil/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Cuestiones jurídicas en materia Civil y Comercial, Paz, Familia, Derecho del Consumidor, Tributario, Concursal y Quiebras. Atención en Defensorías Civiles correspondientes al domicilio o juzgado competente.",
+            "tags": [
+                "civil",
+                "comercial",
+                "familia",
+                "consumidor",
+                "tributario",
+                "concursos",
+                "quiebras"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-familia-descripcion",
+            "seccion": "servicios",
+            "titulo": "Codefensorías de Familia",
+            "tipo": "area_servicio",
+            "slug_web": "https://defensamendoza.gob.ar/codefensoria-de-familia/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Intervención en conflictos familiares y situaciones de vulnerabilidad en el ámbito familiar. Conflictos familiares o situaciones de vulnerabilidad en el ámbito familiar.",
+            "tags": [
+                "familia",
+                "conflictos-familiares",
+                "vulnerabilidad-familiar"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-nnaypcr-descripcion",
+            "seccion": "servicios",
+            "titulo": "Asesorías de Niños, Niñas, Adolescentes y Personas con Capacidad Restringida",
+            "tipo": "area_servicio",
+            "slug_web": "https://defensamendoza.gob.ar/asesorias-de-nnaypcr/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Representación judicial y extrajudicial, así como abordaje integral de niños/as, adolescentes y personas con capacidad restringida. Abordaje integral y representación especializada.",
+            "tags": [
+                "NNA",
+                "adolescentes",
+                "capacidad-restringida",
+                "asesorias",
+                "niños",
+                "niñas",
+                "nna_pcr"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-penal-mayores",
+            "seccion": "servicios",
+            "titulo": "Defensa Penal de Personas Mayores",
+            "tipo": "area_servicio",
+            "slug_web": "https://defensamendoza.gob.ar/penal/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Defensa y acompañamiento para garantizar proceso judicial justo a personas acusadas en ámbito penal. Garantía de proceso justo para acusados.",
+            "tags": [
+                "penal",
+                "mayores",
+                "acusados",
+                "proceso-justo",
+                "detenidos",
+                "presos"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-penal-juvenil",
+            "seccion": "servicios",
+            "titulo": "Defensa Penal Juvenil",
+            "tipo": "area_servicio",
+            "slug_web": "https://defensamendoza.gob.ar/penal-juveniles/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Protección y garantía de derechos de jóvenes en procesos penales. Protección específica para jóvenes en ámbito penal.",
+            "tags": [
+                "penal-juvenil",
+                "jóvenes",
+                "derechos-juveniles"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "faq-divorcio-civil",
+            "seccion": "preguntas_frecuentes",
+            "titulo": "¿Cómo iniciar divorcio en Defensoría Civil?",
+            "tipo": "pregunta_respuesta",
+            "slug_web": "https://defensamendoza.gob.ar/informacion/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Acudir a Defensoría Civil correspondiente al domicilio o juzgado competente. Recibir asesoramiento y documentación necesaria. Servicio para personas en situación de vulnerabilidad.",
+            "tags": [
+                "divorcio",
+                "defensoria-civil",
+                "procedimiento"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-familia-cuota-alimentaria",
+            "seccion": "servicios",
+            "titulo": "Cuota Alimentaria - Procedimiento General",
+            "tipo": "procedimiento",
+            "slug_web": "https://defensamendoza.gob.ar/familia/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "La cuota alimentaria es un derecho de los niños y adolescentes. En la Defensoría de Familia te ayudamos a iniciar el reclamo. Se requiere acreditar el vínculo (partida de nacimiento) y demostrar la necesidad y las posibilidades del alimentante.",
+            "tags": [
+                "familia",
+                "cuota-alimentaria",
+                "alimentos",
+                "niños",
+                "hijos"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "requisitos-cuota-alimentaria",
+            "seccion": "servicios",
+            "titulo": "Requisitos para solicitar Cuota Alimentaria",
+            "tipo": "requisitos",
+            "slug_web": "https://defensamendoza.gob.ar/familia/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Para iniciar el trámite necesitas: 1. DNI original del solicitante. 2. Partida de nacimiento de los hijos (actualizada). 3. Datos de domicilio y trabajo del otro progenitor (si se conocen). 4. Lista de gastos mensuales de los hijos.",
+            "tags": [
+                "requisitos",
+                "cuota-alimentaria",
+                "alimentos",
+                "documentacion"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "servicio-familia-regimen-comunicacion",
+            "seccion": "servicios",
+            "titulo": "Régimen de Comunicación (Visitas)",
+            "tipo": "procedimiento",
+            "slug_web": "https://defensamendoza.gob.ar/familia/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Es el derecho y deber de los padres que no conviven con sus hijos de mantener un contacto fluido. Se busca siempre el interés superior del niño. Se puede acordar en mediación o por vía judicial.",
+            "tags": [
+                "familia",
+                "visitas",
+                "comunicacion",
+                "vinculo"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "faq-consulta-detenido",
+            "seccion": "preguntas_frecuentes",
+            "titulo": "¿Cómo consultar persona detenida?",
+            "tipo": "pregunta_respuesta",
+            "slug_web": "https://defensamendoza.gob.ar/informacion/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Acudir a Defensa Penal correspondiente o comunicarse a teléfonos institucionales con nombre completo y DNI. Canales específicos para consultas sobre detenidos.",
+            "tags": [
+                "detenido",
+                "consulta",
+                "penal"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "contacto-delegación-central",
+            "seccion": "contacto",
+            "titulo": "Delegación Central MPDyP Mendoza",
+            "tipo": "ubicacion",
+            "slug_web": "https://defensamendoza.gob.ar/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Dirección: Av. España 480, M5500 DES, Mendoza, Argentina. Delegación principal del Ministerio Público de la Defensa y Pupilar.",
+            "tags": [
+                "direccion",
+                "delegación-central",
+                "Mendoza"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "delegación-san-rafael",
+            "seccion": "contacto",
+            "titulo": "Delegación San Rafael (Segunda Circunscripción)",
+            "tipo": "ubicacion",
+            "slug_web": "https://defensamendoza.gob.ar/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Dirección: Emilio Civit 257, San Rafael, Mendoza. Teléfonos: 2604449159 (Defensa Penal), 2604449141 (Familia).",
+            "tags": [
+                "San Rafael",
+                "dirección",
+                "teléfono",
+                "penal",
+                "familia"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "delegación-san-martin",
+            "seccion": "contacto",
+            "titulo": "Delegación San Martín (Tercera Circunscripción)",
+            "tipo": "ubicacion",
+            "slug_web": "https://defensamendoza.gob.ar/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Dirección: Chubut y 9 de Julio (Palacio de Justicia), San Martín, Mendoza. WhatsApp de Consultas para Zona Este: +54 9 263 431-2070. Teléfono fijo: 2634439679.",
+            "tags": [
+                "San Martín",
+                "zona este",
+                "whatsapp",
+                "dirección",
+                "teléfono"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "delegación-tunuyan",
+            "seccion": "contacto",
+            "titulo": "Delegación Tunuyán (Cuarta Circunscripción - Valle de Uco)",
+            "tipo": "ubicacion",
+            "slug_web": "https://defensamendoza.gob.ar/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Dirección: San Martín 1900, Tunuyán, Mendoza. Teléfono: 2622426388. Atención para todo el Valle de Uco.",
+            "tags": [
+                "Tunuyán",
+                "Valle de Uco",
+                "dirección",
+                "teléfono"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "contacto-redes-sociales",
+            "seccion": "contacto",
+            "titulo": "Redes Sociales Institucionales",
+            "tipo": "contacto_digital",
+            "slug_web": "https://defensamendoza.gob.ar/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Facebook, Twitter (@MPDyP_Mendoza), YouTube (@mpdyp-mza), Instagram (@mpdyp_mendoza), LinkedIn. Canales oficiales para comunicaciones y novedades.",
+            "tags": [
+                "redes-sociales",
+                "Facebook",
+                "Twitter",
+                "Instagram",
+                "YouTube",
+                "LinkedIn"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "concursos-mpdyp",
+            "seccion": "concursos",
+            "titulo": "Concursos MPDyP",
+            "tipo": "procedimientos",
+            "slug_web": "https://defensamendoza.gob.ar/concursos-mpdyp/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Llamados a concursos para cobertura de cargos en el MPDyP. Requisitos y etapas publicadas en sección específica.",
+            "tags": [
+                "concursos",
+                "seleccion-personal",
+                "MPDyP"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "concursos-magistratura",
+            "seccion": "concursos",
+            "titulo": "Concursos Consejo de la Magistratura",
+            "tipo": "procedimientos",
+            "slug_web": "https://defensamendoza.gob.ar/concursos-consejo-de-la-magistratura/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Concursos para designación de magistrados y funcionarios con intervención del Consejo de la Magistratura.",
+            "tags": [
+                "magistratura",
+                "concursos",
+                "designacion-funcionarios"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "capacitacion-material-exposiciones",
+            "seccion": "capacitaciones",
+            "titulo": "Material de Exposiciones MPDyP",
+            "tipo": "recursos",
+            "slug_web": "https://defensamendoza.gob.ar/material-capacitaciones/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Presentaciones y documentos de actividades de capacitación disponibles para descarga.",
+            "tags": [
+                "material",
+                "exposiciones",
+                "capacitacion"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "capacitacion-videos-youtube",
+            "seccion": "capacitaciones",
+            "titulo": "Videos de Capacitaciones MPDyP",
+            "tipo": "recursos_multimedia",
+            "slug_web": "https://www.youtube.com/@mpdyp-mza",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Canal oficial YouTube con videos de capacitaciones, jornadas y charlas institucionales.",
+            "tags": [
+                "videos",
+                "YouTube",
+                "capacitaciones"
+            ],
+            "page_id": "page:1"
+        },
+        {
+            "id": "novedades-asamblea-legislativa-2024",
+            "seccion": "noticias",
+            "titulo": "Defensora General en Asamblea Legislativa",
+            "tipo": "noticia",
+            "slug_web": "https://defensamendoza.gob.ar/asamblea-legislativa/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Cecilia Saint André participó del acto de apertura de sesiones ordinarias del Poder Legislativo. Fecha: 01/05/2024.",
+            "tags": [
+                "asamblea-legislativa",
+                "Cecilia-Saint-Andre",
+                "2024"
+            ],
+            "fecha": "2024-05-01",
+            "page_id": "page:1"
+        },
+        {
+            "id": "novedades-visita-zona-sur",
+            "seccion": "noticias",
+            "titulo": "Visita Defensora General Zona Sur",
+            "tipo": "noticia",
+            "slug_web": "https://defensamendoza.gob.ar/?p=6890",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Reunión con delegados y personal de Defensa Zona Sur. Fecha: 16/04/2024.",
+            "tags": [
+                "zona-sur",
+                "visita-institucional"
+            ],
+            "fecha": "2024-04-16",
+            "page_id": "page:1"
+        },
+        {
+            "id": "novedades-dia-mujer-2024",
+            "seccion": "noticias",
+            "titulo": "Conversatorio Mes de las Mujeres",
+            "tipo": "noticia",
+            "slug_web": "https://defensamendoza.gob.ar/mes-de-las-mujeres/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Cecilia Saint André en conversatorio Día Internacional de la Mujer. Fecha: 08/03/2024.",
+            "tags": [
+                "dia-mujer",
+                "genero"
+            ],
+            "fecha": "2024-03-08",
+            "page_id": "page:1"
+        },
+        {
+            "id": "novedades-convenio-uncuyo-2025",
+            "seccion": "noticias",
+            "titulo": "Convenio MPDyP - UNCUYO",
+            "tipo": "noticia",
+            "slug_web": "https://defensamendoza.gob.ar/firma-de-convenio/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Convenio para formación y prácticas profesionales con Facultad de Derecho. Fecha: 13/02/2025.",
+            "tags": [
+                "convenio",
+                "UNCUYO",
+                "practicas-profesionales"
+            ],
+            "fecha": "2025-02-13",
+            "page_id": "page:1"
+        },
+        {
+            "id": "novedades-consejo-federal-2024",
+            "seccion": "noticias",
+            "titulo": "Cecilia Saint André en Consejo Federal",
+            "tipo": "noticia",
+            "slug_web": "https://jusmendoza.gob.ar/cecilia-saint-andre-integrara-el-consejo-federal-de-defensores-y-asesores-generales/",
+            "source_url": "https://defensamendoza.gob.ar/",
+            "contenido": "Vicecoordinadora segunda con prioridad en Defensoría de Niños y Adolescentes. Fecha: 06/12/2024.",
+            "tags": [
+                "consejo-federal",
+                "NNA"
+            ],
+            "fecha": "2024-12-06",
+            "page_id": "page:1"
+        },
+        {
+            "id": "seccion-dependencias",
+            "seccion": "organizacion",
+            "titulo": "Dependencias del MPDyP",
+            "tipo": "organizacion",
+            "slug_web": "https://defensamendoza.gob.ar/dependencias/",
+            "source_url": "https://defensamendoza.gob.ar/dependencias/",
+            "contenido": "Estructura organizativa completa del Ministerio Público de la Defensa y Pupilar de Mendoza. Incluye todas las unidades y oficinas dependientes.",
+            "tags": [
+                "dependencias",
+                "organizacion",
+                "estructura"
+            ],
+            "page_id": "page:2"
+        },
+        {
+            "id": "seccion-transparencia",
+            "seccion": "transparencia",
+            "titulo": "Sección Transparencia MPDyP",
+            "tipo": "transparencia",
+            "slug_web": "https://defensamendoza.gob.ar/transparencia/",
+            "source_url": "https://defensamendoza.gob.ar/transparencia/",
+            "contenido": "Información de transparencia activa del organismo conforme normativa vigente. Publicación de datos requeridos por ley de acceso a la información pública.",
+            "tags": [
+                "transparencia",
+                "acceso-informacion",
+                "normativa"
+            ],
+            "page_id": "page:3"
+        },
+        {
+            "id": "seccion-noticias-completa",
+            "seccion": "noticias",
+            "titulo": "Sección Noticias MPDyP",
+            "tipo": "noticias",
+            "slug_web": "https://defensamendoza.gob.ar/noticias/",
+            "source_url": "https://defensamendoza.gob.ar/noticias/",
+            "contenido": "Repositorio completo de novedades, comunicados y actividades institucionales del MPDyP. Incluye juramentos de nuevos asesores y reuniones federales.",
+            "tags": [
+                "noticias",
+                "comunicados",
+                "actividades"
+            ],
+            "page_id": "page:4"
+        },
+        {
+            "id": "seccion-civil-detallada",
+            "seccion": "servicios",
+            "titulo": "Defensa Civil - Información Completa",
+            "tipo": "servicio_detallado",
+            "slug_web": "https://defensamendoza.gob.ar/civil/",
+            "source_url": "https://defensamendoza.gob.ar/civil/",
+            "contenido": "Página dedicada exclusivamente a servicios de Defensa Civil con información detallada de competencias y procedimientos.",
+            "tags": [
+                "civil",
+                "servicio-detallado"
+            ],
+            "page_id": "page:5"
+        },
+        {
+            "id": "seccion-familia-detallada",
+            "seccion": "servicios",
+            "titulo": "Codefensorías de Familia - Detalle",
+            "tipo": "servicio_detallado",
+            "slug_web": "https://defensamendoza.gob.ar/codefensoria-de-familia/",
+            "source_url": "https://defensamendoza.gob.ar/codefensoria-de-familia/",
+            "contenido": "Información específica sobre codefensorías de familia, competencias y vías de acceso al servicio.",
+            "tags": [
+                "familia",
+                "codefensoria",
+                "servicio-detallado"
+            ],
+            "page_id": "page:6"
+        },
+        {
+            "id": "seccion-nnaypcr-detallada",
+            "seccion": "servicios",
+            "titulo": "Asesorías NNAyPCR - Información Completa",
+            "tipo": "servicio_detallado",
+            "slug_web": "https://defensamendoza.gob.ar/asesorias-de-nnaypcr/",
+            "source_url": "https://defensamendoza.gob.ar/asesorias-de-nnaypcr/",
+            "contenido": "Detalle completo de asesorías para niños, niñas, adolescentes y personas con capacidad restringida.",
+            "tags": [
+                "NNAyPCR",
+                "asesorias",
+                "servicio-detallado"
+            ],
+            "page_id": "page:7"
+        },
+        {
+            "id": "seccion-penal-detallada",
+            "seccion": "servicios",
+            "titulo": "Defensa Penal - Detalle Completo",
+            "tipo": "servicio_detallado",
+            "slug_web": "https://defensamendoza.gob.ar/penal/",
+            "source_url": "https://defensamendoza.gob.ar/penal/",
+            "contenido": "Información exhaustiva sobre servicios de defensa penal para personas mayores de edad.",
+            "tags": [
+                "penal",
+                "mayores",
+                "servicio-detallado"
+            ],
+            "page_id": "page:8"
+        },
+        {
+            "id": "novedades-juramento-rossi-2024",
+            "seccion": "noticias",
+            "titulo": "Juramento Co-Asesor Rossi NNAyPCR",
+            "tipo": "noticia",
+            "slug_web": "https://defensamendoza.gob.ar/nuevo-co-asesor/",
+            "source_url": "https://defensamendoza.gob.ar/noticias/",
+            "contenido": "Franco José María Rossi juró como Co-Asesor de Asesorías NNAyPCR en Alvear. Fecha aproximada: junio 2024.",
+            "tags": [
+                "juramento",
+                "NNAyPCR",
+                "nuevo-personal"
+            ],
+            "fecha": "2024-06-10",
+            "page_id": "page:4"
+        },
+        {
+            "id": "novedades-reunion-federal-defensores",
+            "seccion": "noticias",
+            "titulo": "Reunión Consejo Federal Defensores",
+            "tipo": "noticia",
+            "slug_web": "https://defensamendoza.gob.ar/reunion-ordinaria-defensores/",
+            "source_url": "https://defensamendoza.gob.ar/noticias/",
+            "contenido": "Participación Defensora General en reunión ordinaria Consejo Federal de Defensores Públicos.",
+            "tags": [
+                "consejo-federal",
+                "defensores-publicos"
+            ],
+            "fecha": "2024-05-31",
+            "page_id": "page:4"
+        },
+        {
+            "id": "jurisprudencia-seccion-vacia",
+            "seccion": "jurisprudencia",
+            "titulo": "Sección Jurisprudencia MPDyP",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/jurisprudencia/",
+            "source_url": "https://defensamendoza.gob.ar/jurisprudencia/",
+            "contenido": "Sección dedicada a jurisprudencia del MPDyP. Contenido cargado dinámicamente via JavaScript (no scrapeable). Monitorear para actualizaciones futuras.",
+            "tags": [
+                "jurisprudencia",
+                "precedentes",
+                "js-dinamico"
+            ],
+            "page_id": "page:9",
+            "estado": "pendiente_scraping_avanzado"
+        },
+        {
+            "id": "capacitaciones-mpdyp-seccion",
+            "seccion": "capacitaciones",
+            "titulo": "Capacitaciones MPDyP - Sección Principal",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/capacitaciones-mpdyp/",
+            "source_url": "https://defensamendoza.gob.ar/capacitaciones-mpdyp/",
+            "contenido": "Página principal de capacitaciones. Contenido específico cargado via JavaScript. Subsecciones: material-capacitaciones/, proximas-capacitaciones/.",
+            "tags": [
+                "capacitaciones",
+                "formacion",
+                "js-dinamico"
+            ],
+            "page_id": "page:10"
+        },
+        {
+            "id": "informacion-seccion-completa",
+            "seccion": "informacion",
+            "titulo": "Información General MPDyP",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/informacion/",
+            "source_url": "https://defensamendoza.gob.ar/informacion/",
+            "contenido": "Sección Información con FAQs y procedimientos. Contenido principal cargado dinámicamente (ver documentos FAQ previos extraídos de home).",
+            "tags": [
+                "informacion",
+                "FAQs",
+                "procedimientos"
+            ],
+            "page_id": "page:11"
+        },
+        {
+            "id": "concursos-mpdyp-seccion",
+            "seccion": "concursos",
+            "titulo": "Concursos MPDyP Activos",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/concursos-mpdyp/",
+            "source_url": "https://defensamendoza.gob.ar/concursos-mpdyp/",
+            "contenido": "Página de concursos internos MPDyP. Listado dinámico de llamados abiertos (no visible en scrape estático).",
+            "tags": [
+                "concursos",
+                "seleccion-personal",
+                "js-dinamico"
+            ],
+            "page_id": "page:12"
+        },
+        {
+            "id": "concursos-magistratura-seccion",
+            "seccion": "concursos",
+            "titulo": "Concursos Consejo Magistratura",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/concursos-consejo-de-la-magistratura/",
+            "source_url": "https://defensamendoza.gob.ar/concursos-consejo-de-la-magistratura/",
+            "contenido": "Concursos para magistrados con intervención MPDyP. Contenido cargado dinámicamente.",
+            "tags": [
+                "magistratura",
+                "concursos",
+                "js-dinamico"
+            ],
+            "page_id": "page:13"
+        },
+        {
+            "id": "material-capacitaciones-seccion",
+            "seccion": "capacitaciones",
+            "titulo": "Material de Capacitaciones",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/material-capacitaciones/",
+            "source_url": "https://defensamendoza.gob.ar/material-capacitaciones/",
+            "contenido": "Repositorio de presentaciones y documentos de capacitaciones. Acceso dinámico requerido.",
+            "tags": [
+                "material",
+                "descargas",
+                "capacitaciones"
+            ],
+            "page_id": "page:14"
+        },
+        {
+            "id": "proximas-capacitaciones-agenda",
+            "seccion": "capacitaciones",
+            "titulo": "Próximas Capacitaciones - Cronograma",
+            "tipo": "seccion_dinamica",
+            "slug_web": "https://defensamendoza.gob.ar/proximas-capacitaciones/",
+            "source_url": "https://defensamendoza.gob.ar/proximas-capacitaciones/",
+            "contenido": "Agenda de capacitaciones futuras. Contenido dinámico (cronograma, inscripciones).",
+            "tags": [
+                "agenda",
+                "cronograma",
+                "inscripciones"
+            ],
+            "page_id": "page:15"
+        }
+    ]
+}

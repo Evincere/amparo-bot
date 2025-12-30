@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    container_name: amparo_backend
+    restart: always
+    expose:
+      - "8000"
+    volumes:
+      - ./backend/data:/app/data
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GROQ_MODEL=llama-3.3-70b-versatile
+      - REDIS_URL=redis://redis:6379
+      - EMBEDDING_PROVIDER=huggingface
+      - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+      - LOG_LEVEL=INFO
+    depends_on:
+      - redis
+    networks:
+      - amparo_network
+
+  frontend:
+    build: ./frontend
+    container_name: amparo_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    networks:
+      - amparo_network
+
+  redis:
+    image: redis:7-alpine
+    container_name: amparo_redis
+    restart: always
+    volumes:
+      - redis_data:/data
+    networks:
+      - amparo_network
+
+networks:
+  amparo_network:
+    driver: bridge
+
+volumes:
+  redis_data:

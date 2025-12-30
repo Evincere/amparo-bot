@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-12-27T09:00:00-03:00",
+    "institution": "Ministerio de la Defensa Pública de Mendoza"
+  },
+  "general": {
+    "institucional": {
+      "nombre": "Ministerio de la Defensa Pública de Mendoza",
+      "descripcion": "La Defensa Pública de Mendoza garantiza el acceso a la justicia mediante la defensa técnica gratuita."
+    },
+    "contacto": {
+      "telefono_principal": "0800-555-JUSTICIA",
+      "email_general": "info@defensamendoza.gob.ar",
+      "whatsapp": "+54 261 555-1234"
+    },
+    "horarios_generales": {
+      "atencion_presencial": {
+        "lunes_viernes": "08:00 - 14:00"
+      }
+    },
+    "preguntas_frecuentes": [
+      {
+        "pregunta": "¿La Defensa Pública es gratuita?",
+        "respuesta": "Sí, todos los servicios de la Defensa Pública son completamente gratuitos."
+      }
+    ]
+  },
+  "fueros": {
+    "civil": {
+      "nombre": "Fuero Civil",
+      "descripcion": "Defensa en cuestiones civiles, comerciales y laborales",
+      "contacto": {
+        "telefono": "+54 261 429-1111",
+        "email": "civil@defensamendoza.gob.ar"
+      },
+      "horarios": {
+        "atencion_presencial": "Lunes a Viernes 08:00 - 13:00"
+      },
+      "tramites": [
+        {
+          "nombre": "Juicio de Desalojo",
+          "descripcion": "Defensa ante demandas de desalojo de inmuebles",
+          "requisitos": ["DNI", "Notificación de demanda", "Contrato de alquiler"]
+        }
+      ],
+      "preguntas_frecuentes": [
+        {
+          "pregunta": "¿Me pueden defender en un juicio civil?",
+          "respuesta": "Sí, si no tienes recursos económicos suficientes para contratar un abogado particular."
+        }
+      ],
+      "keywords": ["desalojo", "alquiler", "laboral", "cobro ejecutivo", "civil"]
+    },
+    "familia": {
+      "nombre": "Fuero de Familia",
+      "descripcion": "Defensa en asuntos de derecho de familia",
+      "contacto": {
+        "telefono": "+54 261 429-2222",
+        "email": "familia@defensamendoza.gob.ar"
+      },
+      "tramites": [
+        {
+          "nombre": "Divorcio",
+          "descripcion": "Asistencia legal para tramitar divorcio"
+        },
+        {
+          "nombre": "Cuota Alimentaria",
+          "descripcion": "Reclamo de alimentos para hijos"
+        }
+      ],
+      "keywords": ["divorcio", "alimentos", "familia", "violencia familiar", "visitas"]
+    },
+    "penal": {
+      "nombre": "Fuero Penal",
+      "descripcion": "Defensa de personas imputadas en causas penales",
+      "keywords": ["penal", "delito", "imputado", "denuncia", "prisión"]
+    },
+    "penal_juvenil": {
+      "nombre": "Fuero Penal Juvenil",
+      "descripcion": "Defensa de adolescentes en conflicto con la ley",
+      "keywords": ["penal juvenil", "menor", "adolescente", "juvenil"]
+    },
+    "nna_pcr": {
+      "nombre": "Asesoría NNA y PCR",
+      "descripcion": "Protección de derech de niños y personas con capacidad restringida",
+      "keywords": ["niños", "niñas", "curatela", "tutela", "discapacidad"]
+    }
+  }
+}
