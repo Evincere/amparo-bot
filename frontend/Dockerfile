@@ -9,6 +9,7 @@ COPY . /usr/share/nginx/html
 # Replace localhost API URL with relative path for Nginx proxying
 # This changes 'http://localhost:8001' to '' so requests go to /api/chat/stream
 RUN sed -i 's|http://localhost:8001||g' /usr/share/nginx/html/index.html
+RUN sed -i 's|backend|amparobot-backend-fnpbys|g' nginx.conf
 
 # Copy custom Nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
