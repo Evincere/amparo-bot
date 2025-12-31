@@ -4,6 +4,7 @@ RUN rm -rf /usr/share/nginx/html/*
 
 COPY . /usr/share/nginx/html/
 
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 RUN sed -i 's|http://localhost:8001|/|g' /usr/share/nginx/html/index.html
 
 EXPOSE 80
