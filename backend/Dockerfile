@@ -4,6 +4,9 @@ FROM public.ecr.aws/docker/library/python:3.12-slim
 # Evitar la generación de archivos .pyc y asegurar que los logs se muestren en tiempo real
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
+ENV REDIS_URL=redis://redis:6379/0
+ENV REDIS_HOST=redis
+
 
 # Establecer el directorio de trabajo
 WORKDIR /app
