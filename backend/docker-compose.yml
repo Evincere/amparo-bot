@@ -8,8 +8,17 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - REDIS_URL=redis://redis:6379/0
-      - REDIS_HOST=redis
+      - NODE_ENV=production
+      - PORT=3000
+      - OLLAMA_HOST=https://ollama.com
+      - OLLAMA_MODEL=gpt-oss:120b
+      - OLLAMA_API_KEY=eec778b3ee2845bcad7c602cc2db45c3.Tn7qWVi3POVyg6u9rRzLbofz
+      - GROQ_API_KEY=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
+      - GROQ_MODEL=llama-3.3-70b-versatile
+      - REDIS_URL=redis://redis:6379
+      - LOG_LEVEL=INFO
+      - EMBEDDING_PROVIDER=huggingface
+      - EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
     depends_on:
       - redis
     networks:
