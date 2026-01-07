@@ -187,9 +187,7 @@ class GraphAgent:
         try:
             # Forzar formato JSON si el modelo lo soporta (Groq lo soporta)
             if isinstance(self.llm, ChatGroq):
-                response = await self.llm.ainvoke(messages, response_format={"type": "json_object"})
-            else:
-                response = await self.llm.ainvoke(messages)
+response = await self.llm.ainvoke(messages)            
                 
             content = response.content
             logger.info(f"LLM Response Content: {content}")
