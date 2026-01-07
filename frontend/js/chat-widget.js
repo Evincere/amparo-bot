@@ -8,7 +8,7 @@
 
     // Configuración (será inyectada por WordPress)
     const config = window.dmChatConfig || {
-        apiUrl: 'http://localhost:8001',
+        apiUrl: '/api,
         welcomeMessage: '¡Hola! Soy Amparo, ¿en qué puedo ayudarte?'
     };
 
@@ -248,7 +248,7 @@
         state.isLoading = true;
 
         try {
-            const response = await fetch(`${config.apiUrl}/api/chat/stream`, {
+            const response = await fetch(`${config.apiUrl}/chat/stream`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
