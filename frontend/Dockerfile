@@ -10,7 +10,6 @@ COPY assets /usr/share/nginx/html/assets/
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Replace localhost:8001 references with / for API calls
-RUN sed -i 's|http://localhost:8001|http://amparobot-backend-fnpbys:8001|g' /usr/share/nginx/html/index.html 2>/dev/null || true
-
+RUN sed -i 's|http://localhost:8001|http://amparo_backend:8000|g' /usr/share/nginx/html/index.html 2>/dev/null || true
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
