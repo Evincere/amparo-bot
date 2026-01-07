@@ -32,8 +32,7 @@ COPY . .
 
 # Pre-descargar el modelo de embeddings para evitar demoras en el primer arranque
 # Aplicamos el bypass de SSL por si la red de build lo requiere
-RUN python -c "from app.utils.ssl_patch import apply_ssl_bypass; apply_ssl_bypass(); from langchain_huggingface import HuggingFaceEmbeddings; HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')"
-
+# RUN python -c "from app.utils.ssl_patch import apply_ssl_bypass; apply_ssl_bypass(); from langchain_huggingface import HuggingFaceEmbeddings; HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')"
 # Asegurar que el directorio de datos existe y tiene permisos
 RUN mkdir -p data/chroma_db
 
