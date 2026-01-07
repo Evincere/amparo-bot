@@ -8,7 +8,7 @@
 
     // Configuración (será inyectada por WordPress)
     const config = window.dmChatConfig || {
-        apiUrl: '/api,
+        apiUrl: '/api',
         welcomeMessage: '¡Hola! Soy Amparo, ¿en qué puedo ayudarte?'
     };
 
